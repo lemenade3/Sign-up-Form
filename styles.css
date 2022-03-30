@@ -5,7 +5,7 @@
 
 body {
     display: flex;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(240, 240, 240);
     align-items: center;
 }
 
@@ -16,6 +16,7 @@ a {
 form {
     background-color: white;
     padding: 20px;
+    box-shadow: 0px 1px 4px rgb(160, 160, 160);
 }
 
 .hero {
@@ -60,4 +61,16 @@ form {
 
 input {
     margin-right: 60px;
+}
+
+button {
+    height: 40px;
+    width: 180px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(148, 138, 104);
+    margin: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
