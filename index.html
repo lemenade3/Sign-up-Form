@@ -51,11 +51,11 @@
             <div class="row">
                 <div>
                     <label for="password">Password</label><br>
-                    <input type="password" name="password" id="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
+                    <input type="password" name="password" id="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Password must be at least 8 character, contain one uppercase letter, one lowercase letter and a number.">
                 </div>
                 <div>
                     <label for="checkpwd">Confirm Password</label><br>
-                    <input type="password" name="checkpwd" id="checkpwd" placeholder="Confirm" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
+                    <input type="password" name="checkpwd" id="checkpwd" placeholder="Confirm" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Passwords must match.">
                 </div>
             </div>
         </form>
