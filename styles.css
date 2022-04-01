@@ -125,7 +125,7 @@ button:active {
     margin-top: 0px;
 }
 
-#main > :last-child > :last-child > a {
+#main > div > div > a {
     color: rgb(148, 138, 104);
 }
 
